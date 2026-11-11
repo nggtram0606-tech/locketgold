@@ -45,14 +45,14 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD Hoàng Pro",
+            tag: "LOCKET GOLD Trâm Plus",
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Đã Kich Hoạt 💛",
             feature_set: [
                 {
-                    title: "Hoàng Official ✨",
-                    body: "Zalo 097873872"
+                    title: "Trâmmm ✨",
+                    body: "Zalo 0336812318"
                 }
             ],
             primary_button_title: "Xong",
@@ -402,11 +402,16 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:new_years_day_2027", source: "remote", caption: { background: { colors: ["#3B00EC", "#823FFF"] }, icon: { data: "💫", type: "emoji" }, max_lines: 1, text: "Xin chào 2027!", localized_text: { en: "Xin chào 2027!", vn: "Xin chào 2027!" }, text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:new_years_day_2027_alternate", source: "remote", caption: { background: { colors: ["#FF0062", "#FF783F"] }, max_lines: 1, text: "2027", text_color: "#FFFFFF", type: "static_content" } }
                 ]
+            },{
+                section: "💕 Ngọc Trâm",
+                items: [
+                    { overlay_id: "caption:ngoctram", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, max_lines: 1, text: "Sinh nhật vui vẻ 🎂", text_color: "#183153", type: "static_content" } },
+                ]
             },
             {
-                section: "🎨 Decorative by Katem Nguyễn",
+                section: "🎨 Decorative by Ngọc Trâm",
                 items: [
-                    { overlay_id: "caption:katemnguyen", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, max_lines: 1, text: "💻 Katem Nguyễn", text_color: "#183153", type: "static_content" } },
+                    { overlay_id: "caption:ngoctram", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, max_lines: 1, text: "💻 Ngọc Trâm", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "Cu 🐎", text_color: "#633B24", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐕", type: "emoji" }, max_lines: 1, text: "Tuất", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "🐍", type: "emoji" }, max_lines: 1, text: "Snake Vibes", localized_text: { en: "Snake Vibes", vn: "Chất rắn" }, text_color: "#FFFFFFE6", type: "static_content" } },
